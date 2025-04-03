@@ -30,7 +30,7 @@ The task is to train a model on the 'train' folder which performs well on the 'v
  all of them are cropped to same size .Also batches of video frames are created to be fed to the training model.
  Data was split as train and test data and an epoch and batch size variable was created to vary their values to inspect performance of model.
 ### 2) Model Building : ###
- Started with a simple 7 layer 3D convolution network and Adam optimiser. 
+ Started with building a simple 7 layer 3D convolution network using keras and Adam optimiser. 
  Evaluated model based on categorical accuracy by plotting training epochs vs model accuracy . 
  val_categorical_accuracy turned out to be 0.2222 which is very low. Tried creating 2 more variations of the conv 3d model by adding more layers . 
  The validation accuracy did not improve much and stood at 56%.
